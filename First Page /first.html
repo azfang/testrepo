@@ -1,43 +1,21 @@
-html,body{
-  font-family: scotch-display;
-  font-weight: 400;
-}
-#output{
-  /* The command I know best. */
-  color:#000000;
-  font-size:25px;
-  position: fixed;
-  top: 70%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  text-align: justify;
-  line-height: 200%;
-}
-
-.hoverable-text {
-  text-decoration: none; /* Remove underline */
-  color: rgb(0, 0, 0); /* Default text color */
-  transition: color 0.3s; /* Smooth transition for color change */
-}
-
-.hoverable-text:hover {
-  color: rgb(56, 82, 251); /* Change text color on hover */
-}
-
-@keyframes spin {
-  from {
-      transform: rotate(0deg);
-  }
-  to {
-      transform: rotate(360deg);
-  }
-}
-
-@keyframes fade-in {
-  from {
-      background-color: black;
-  }
-  to {
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>On Beginnings</title>
+    <link rel="stylesheet" href="first.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/qun7gpa.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div id="output"></div>
+    <!-- partial -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+  <script src="first.js"></script>
+</html>
       background-color: white;
   }
 }
